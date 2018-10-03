@@ -1,0 +1,57 @@
+body {
+  font: 1em Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+}
+
+.new {
+  padding: 1em 0;
+}
+
+.form-input {
+  font: 2em Helvetica, sans-serif;
+  padding: 0.25em;
+  border: 1px solid #afafaf;
+  vertical-align: bottom;
+}
+
+.submit {
+  background-color: #d3e2d3;
+}
+
+.todo {
+  border: 1px solid #afafaf;
+  border-bottom: none;
+}
+
+.task {
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #afafaf;
+  background-color: #e4e4e4;
+}
+
+.task a {
+  display: block;
+  font-size: 2em;
+  color: #111;
+  text-decoration: none;
+}
+
+.task.complete {
+  background-color: #eeeeee;
+}
+
+.task.complete a {
+  color: #878787;
+  text-decoration: line-through;
+}
